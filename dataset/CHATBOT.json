@@ -1,0 +1,691 @@
+{
+  "intents": [
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later!",
+        "see ya"
+      ],
+      "responses": [
+        "goodbye",
+        "bye",
+        "selamat tinggal"
+      ]
+    },
+    {
+      "tag": "",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan",
+        "selamat pagi",
+        "selamat siang",
+        "selamat sore",
+        "selamat malam"
+      ],
+      "responses": [
+        "Hai! Helpdesak Bank UMKM di sini. Ada yang bisa saya bantu?",
+        "Halo! Saya Helpdesak Bank UMKM, salam kenal ya! Ada yang bisa saya bantu?",
+        "Helo! Ini Helpdesak Bank UMKM, ada yang bisa saya bantu?"
+      ]
+    },
+
+    {
+      "tag": "kertas_habis",
+      "patterns": [
+        "Bagaimana cara mengatasi masalah kertas habis pada ATM?",
+        "Apa yang harus dilakukan jika kertas di ATM habis?",
+        "Mesin ATM kehabisan kertas, bagaimana solusinya?",
+        "Apa langkah-langkah untuk mengisi kertas yang habis di ATM?",
+        "ATM tidak mengeluarkan struk karena kertas habis, bagaimana mengatasinya?",
+        "Kertas struk di ATM habis, apa yang harus saya lakukan?",
+        "Bagaimana mengganti kertas struk yang habis di ATM?"
+      ],
+      "responses": [
+        "Mengatasi masalah 'Kertas ATM Habis' pada mesin ATM memerlukan langkah-langkah yang tepat untuk memastikan mesin berfungsi kembali dengan normal. Berikut adalah panduan umum untuk mengatasi masalah ini:\n\n1. Persiapkan Alat dan Bahan\n   - Kertas rol yang sesuai dengan spesifikasi mesin ATM.\n   - Alat pemotong kertas (jika diperlukan).\n   - Sarung tangan (opsional, untuk menjaga kebersihan).\n\n2. Matikan Mesin ATM\n   - Untuk alasan keamanan, matikan mesin ATM sebelum memulai penggantian kertas. Pastikan mesin benar-benar tidak beroperasi.\n\n3. Buka Penutup Mesin ATM\n   - Gunakan kunci khusus atau ikuti prosedur yang ditentukan oleh penyedia ATM untuk membuka penutup mesin. Akses ke bagian printer biasanya berada di area depan atau belakang mesin.\n\n4. Keluarkan Kertas Lama\n   - Jika masih ada sisa kertas lama di dalam mesin, keluarkan dengan hati-hati. Pastikan tidak ada potongan kertas yang tertinggal di dalam mesin karena dapat menyebabkan kerusakan atau gangguan pada mesin.\n\n5. Pasang Kertas Baru\n   - Pasang kertas rol baru sesuai dengan arah yang ditentukan (biasanya terdapat petunjuk arah kertas di dalam mesin). Pastikan kertas terpasang dengan rapi dan tidak ada lipatan atau kerutan.\n\n6. Tarik Kertas ke Bagian Printer\n   - Tarik ujung kertas ke bagian printer hingga kertas terlihat di area keluaran. Pastikan kertas berada di jalur yang benar untuk menghindari macet.\n\n7. Tutup Penutup Mesin ATM\n   - Tutup kembali penutup mesin ATM dengan rapat dan pastikan terkunci dengan aman. Pastikan semua bagian mesin terpasang dengan benar sebelum menyalakannya kembali.\n\n8. Nyalakan Mesin ATM\n   - Nyalakan kembali mesin ATM dan biarkan sistem melakukan inisialisasi. Beberapa mesin ATM akan melakukan tes pencetakan otomatis setelah dinyalakan untuk memastikan kertas terpasang dengan benar.\n\n9. Uji Coba Pencetakan\n   - Lakukan transaksi uji coba untuk memastikan kertas ATM berfungsi dengan baik. Periksa apakah kertas keluar dengan benar dan hasil cetakan jelas.\n\n10. Catat dan Laporkan\n   - Catat penggantian kertas yang telah dilakukan dalam log pemeliharaan mesin ATM. Laporkan ke pihak yang bertanggung jawab jika terdapat masalah yang tidak dapat diatasi.\n\nTips Tambahan:\n- Pelatihan: Pastikan petugas yang bertanggung jawab mengganti kertas ATM sudah terlatih dan mengetahui prosedur yang benar.\n- Pemeriksaan Rutin: Lakukan pemeriksaan rutin pada mesin ATM untuk memastikan semua komponen berfungsi dengan baik dan kertas selalu tersedia.\n- Stok Kertas: Selalu sediakan stok kertas rol yang cukup di lokasi mesin ATM untuk menghindari kehabisan kertas di waktu yang tidak diinginkan.\n\nMengikuti langkah-langkah di atas akan membantu memastikan mesin ATM beroperasi dengan baik dan siap melayani pengguna."
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama yaa"
+      ]
+    },
+    {
+      "tag": "Printer_tidak_dapat_mencetak",
+      "patterns": [
+        "Kenapa printer tidak bisa mencetak?",
+        "Mengapa printer tidak mau mencetak?",
+        "Printer tidak merespons saat mencetak, apa yang harus dilakukan?",
+        "Bagaimana cara mengatasi printer yang tidak bisa mencetak?",
+        "Apa yang menyebabkan printer tidak bisa mencetak?",
+        "Kenapa printer saya tidak merespons perintah cetak?",
+        "Printer tidak mencetak dokumen saya, bagaimana solusinya?",
+        "Mengapa printer tidak mau mengeluarkan kertas cetakan?",
+        "Apa yang harus dilakukan jika printer tidak mencetak?",
+        "Kenapa printer tiba-tiba tidak bisa mencetak dokumen?",
+        "Mengapa printer saya tidak mengeluarkan hasil cetakan?"
+      ],
+      "responses": [
+        "Mengatasi printer yang tidak dapat mencetak dapat dilakukan dengan beberapa langkah berikut:\n\n1. Pemeriksaan Dasar\n   - Periksa Koneksi: Pastikan printer terhubung dengan baik ke komputer atau jaringan. Jika menggunakan kabel USB, pastikan kabel tidak rusak dan terpasang dengan benar. Jika menggunakan jaringan, pastikan printer terhubung ke Wi-Fi atau jaringan yang benar.\n   - Cek Status Printer: Pastikan printer dalam keadaan menyala dan tidak dalam mode offline. Periksa juga apakah ada pesan error pada layar printer.\n\n2. Pemeriksaan Software\n   - Driver Printer: Pastikan driver printer terinstal dengan benar dan up-to-date. Anda bisa mengunduh driver terbaru dari situs web resmi produsen printer.\n   - Pengaturan Default Printer: Pastikan printer yang ingin digunakan sudah diset sebagai default printer di komputer Anda.\n   - Cek Antrian Cetak: Periksa apakah ada dokumen yang menunggu dicetak di antrian cetak. Hapus atau batalkan semua dokumen yang tertahan di antrian.\n\n3. Troubleshooting pada Windows\n   - Gunakan Troubleshooter Printer: Windows memiliki fitur troubleshooter yang bisa membantu mengidentifikasi dan memperbaiki masalah. Buka `Settings > Update & Security > Troubleshoot`, lalu pilih `Printer` dan jalankan troubleshooter.\n   - Restart Print Spooler: Print Spooler adalah layanan yang mengelola antrian cetak. Restart layanan ini dengan cara berikut:\n      - Tekan `Windows + R`, ketik `services.msc`, dan tekan Enter.\n      - Cari layanan bernama `Print Spooler`, klik kanan, dan pilih `Restart`.\n\n4. Pemeriksaan Fisik Printer\n   - Cek Tinta/Toner: Pastikan tinta atau toner printer tidak habis.\n   - Periksa Kertas: Pastikan kertas terpasang dengan benar dan tidak ada kertas yang macet di dalam printer.\n   - Bersihkan Printer: Bersihkan bagian dalam printer dari debu atau kotoran yang mungkin mengganggu mekanisme pencetakan.\n\n5. Update Firmware\n   - Update Firmware Printer: Beberapa masalah bisa diatasi dengan memperbarui firmware printer. Anda bisa mengunduh firmware terbaru dari situs web resmi produsen printer.\n\n6. Hubungi Dukungan Teknis\n   Jika semua langkah di atas tidak berhasil, pertimbangkan untuk menghubungi dukungan teknis dari produsen printer untuk bantuan lebih lanjut.\n\nCatatan Tambahan:\n- Gunakan Dokumen Panduan: Baca dokumen panduan atau manual pengguna printer untuk solusi masalah yang lebih spesifik sesuai dengan tipe dan model printer Anda.\n- Cek Pesan Error: Jika printer menampilkan pesan error, cari solusi berdasarkan kode atau pesan error tersebut di internet atau di situs resmi produsen.\n\nSemoga langkah-langkah ini membantu mengatasi masalah printer Anda yang tidak dapat mencetak."
+      ]
+    },
+    {
+      "tag": "komputer_tidak_dapat_menyala",
+      "patterns": [
+        "Kenapa komputer tidak bisa menyala?",
+        "Mengapa komputer tidak mau menyala?",
+        "Bagaimana cara mengatasi komputer yang tidak dapat menyala?",
+        "Kenapa komputer saya tidak berfungsi saat dinyalakan?",
+        "Komputer tidak merespons ketika saya mencoba menyalakannya, apa solusinya?",
+        "Mengapa komputer tidak menunjukkan tanda-tanda kehidupan?",
+        "Apa yang harus dilakukan jika komputer tidak menyala?",
+        "Kenapa komputer tiba-tiba tidak bisa menyala?"
+      ],
+      "responses": [
+        "Mengatasi masalah komputer yang tidak dapat menyala dapat dilakukan dengan beberapa langkah berikut:\n\n1. Pemeriksaan Dasar\n   - Periksa Koneksi Listrik: Pastikan kabel power terhubung dengan baik ke stopkontak dan ke komputer. Coba ganti kabel power jika diperlukan.\n   - Periksa Sakelar Daya: Pastikan sakelar daya pada power supply di bagian belakang komputer dalam posisi ON.\n   - Periksa Stopkontak: Coba gunakan stopkontak lain yang Anda tahu berfungsi dengan baik.\n\n2. Pemeriksaan Komponen\n   - Periksa Monitor: Pastikan monitor menyala dan terhubung dengan benar ke komputer.\n   - Periksa Indikator LED: Jika ada lampu LED pada motherboard, periksa apakah menyala. Ini bisa menunjukkan apakah komputer menerima daya.\n   - Periksa Tombol Power: Pastikan tombol power pada casing komputer berfungsi dengan baik.\n\n3. Troubleshooting Lanjutan\n   - Cabut dan Pasang Kembali Komponen: Coba cabut dan pasang kembali komponen penting seperti RAM, kartu grafis, dan kabel internal untuk memastikan semuanya terhubung dengan benar.\n   - Tes dengan Power Supply Lain: Jika Anda memiliki power supply cadangan, coba gunakan untuk melihat apakah power supply yang lama bermasalah.\n   - Periksa Baterai CMOS: Jika baterai CMOS habis, komputer mungkin tidak bisa menyala. Coba ganti baterai CMOS dengan yang baru.\n\n4. Hubungi Teknisi\n   Jika semua langkah di atas tidak berhasil, pertimbangkan untuk menghubungi teknisi komputer profesional untuk bantuan lebih lanjut.\n\nSemoga langkah-langkah ini membantu mengatasi masalah komputer Anda yang tidak dapat menyala."
+      ]
+    },
+    {
+      "tag": "kesalahan_input_password",
+      "patterns": [
+        "Salah password",
+        "Tidak bisa login",
+        "Lupa password",
+        "Password tidak benar",
+        "Gagal masuk",
+        "Kesalahan password",
+        "Password salah",
+        "Tidak dapat mengakses akun",
+        "Masalah login",
+        "Kesalahan input password"
+      ],
+      "responses":[
+        "Jika Anda mengalami masalah dengan kata sandi, berikut langkah-langkah yang dapat Anda lakukan:\n\n1. Silakan periksa kembali password Anda. Pastikan tidak ada kesalahan pengetikan.\n\n2. Jika Anda lupa password, gunakan fitur 'Lupa Password' untuk meresetnya.\n\n3. Pastikan Caps Lock tidak aktif saat memasukkan password.\n\n4. Jika Anda masih tidak bisa login, hubungi tim pusat"
+      ]
+    },
+    {
+      "tag": "kabel_lan_unplug_/_terputus",
+      "patterns": [
+        "Kabel LAN terputus",
+        "LAN tidak terhubung",
+        "Koneksi LAN terputus",
+        "Tidak bisa terhubung ke jaringan",
+        "Masalah kabel LAN",
+        "LAN tidak berfungsi"
+      ],
+      "responses":[
+        "Jika kabel LAN terputus atau tidak terhubung, langkah-langkah berikut dapat membantu memperbaikinya:\n\n1. Periksa Fisik Kabel LAN\n   - Pastikan kabel LAN terhubung dengan baik ke port yang sesuai di komputer atau perangkat jaringan lainnya.\n   - Periksa kedua ujung kabel LAN dan pastikan terpasang dengan benar.\n   - Ganti kabel LAN jika diperlukan, terutama jika ada tanda-tanda kerusakan seperti putus atau tertekuk.\n\n2. Periksa Perangkat Jaringan\n   - Pastikan switch atau router tempat kabel LAN terhubung dalam kondisi menyala dan berfungsi dengan baik.\n   - Periksa indikator LED di perangkat jaringan. Jika lampu port yang terhubung dengan kabel LAN mati, itu mungkin menunjukkan masalah dengan port atau perangkat itu sendiri.\n\n3. Konfigurasi Jaringan\n   - Pastikan konfigurasi jaringan di komputer atau perangkat terkait sudah benar. Ini termasuk pengaturan IP, subnet mask, gateway, dan DNS.\n   - Coba restart perangkat jaringan dan komputer untuk menyegarkan koneksi jaringan.\n\n4. Troubleshooting Jaringan\n   - Gunakan perangkat lunak diagnostik jaringan untuk memeriksa koneksi dan mengidentifikasi masalah potensial.\n   - Coba hubungkan kabel LAN ke port yang berbeda di perangkat jaringan, jika memungkinkan, untuk memastikan bahwa masalah bukan karena port yang rusak.\n\nJika setelah mengikuti langkah-langkah di atas masalah masih berlanjut, silahkan menghubungi tim pusat"
+      ]
+    },
+    {
+      "tag": "jaringan_internal_down",
+      "patterns": [
+        "Jaringan internal tidak berfungsi",
+        "Tidak bisa akses jaringan internal",
+        "Kenapa jaringan internal down?",
+        "Jaringan internal error",
+        "Masalah jaringan internal",
+        "Tidak bisa terhubung ke jaringan internal"
+      ],
+      "responses": [
+        "Berikut adalah langkah-langkah yang dapat Anda coba untuk mengatasinya:\n\n1. Pastikan semua kabel jaringan terhubung dengan benar.\n2. Restart perangkat jaringan Anda (router, switch, dll.).\n3. Coba gunakan perangkat lain untuk mengakses jaringan.\n4. Periksa apakah ada pemeliharaan jaringan yang sedang berlangsung.\n5. Pastikan perangkat Anda terhubung ke jaringan yang benar.\n\nJika setelah mengikuti langkah-langkah di atas masalah masih terjadi, silakan hubungi tim kantor pusat untuk mendapatkan bantuan lebih lanjut."
+      ]
+    },
+    {
+      "tag": "kerusakan_part",
+      "patterns": [
+        "Ada komponen yang rusak",
+        "Part ini rusak",
+        "Bagaimana cara memperbaiki komponen ini?",
+        "Komponen tidak berfungsi",
+        "Part ini perlu diganti",
+        "Kerusakan pada part"
+        
+      ],
+      "responses": [
+        "Jika terjadi kerusakan part, silahkan segera menghubungi tim kantor pusat untuk segera kami proses"
+        
+      ]
+    },
+    {
+      "tag": "selisih_kas",
+      "patterns": [
+        "Ada selisih kas",
+        "Kas tidak cocok",
+        "Terdapat perbedaan dalam kas",
+        "Selisih uang kas",
+        "Kas tidak balance",
+        "Bagaimana jika ada selisih kas?"
+      ],
+      "responses": [
+        "Jika terdapat selisih kas, silakan segera menghubungi tim kantor pusat untuk segera kami proses."
+      ]
+    },
+    {
+      "tag": "jaringan_eksternal_down",
+      "patterns": [
+        "Jaringan eksternal tidak berfungsi",
+        "Tidak bisa akses internet",
+        "Kenapa jaringan eksternal down?",
+        "Jaringan eksternal error",
+        "Masalah jaringan eksternal",
+        "Tidak bisa terhubung ke jaringan eksternal"
+        
+      ],
+      "responses": [
+        "Berikut adalah beberapa langkah yang dapat Anda coba untuk mengatasinya:\n\n1. Pastikan semua kabel jaringan terhubung dengan benar.\n2. Restart perangkat jaringan Anda (modem, router, dll.).\n3. Periksa apakah perangkat lain juga mengalami masalah yang sama.\n4. Pastikan layanan internet dari penyedia Anda tidak sedang mengalami gangguan.\n5. Coba matikan dan nyalakan kembali perangkat yang Anda gunakan.\n\nJika setelah mengikuti langkah-langkah di atas masalah masih terjadi, silakan hubungi tim kantor pusat kami"
+      
+      ]
+    },
+    {
+      "tag": "pemadaman_listrik",
+      "patterns": [
+        "Ada pemadaman listrik",
+        "Listrik mati",
+        "Kenapa listrik padam?",
+        "Masalah pemadaman listrik",
+        "Tidak ada listrik",
+        "Bagaimana mengatasi listrik padam?"
+      ],
+      "responses": [
+        "Berikut adalah beberapa langkah yang dapat Anda coba untuk mengatasinya:\n\n1. Pastikan bahwa pemadaman listrik bukan karena masalah internal (seperti sekring atau pemutus sirkuit yang terputus).\n2. Periksa apakah lingkungan sekitar Anda juga mengalami pemadaman listrik.\n3. Hubungi penyedia layanan listrik Anda untuk mengetahui status pemadaman dan perkiraan waktu pemulihan.\n4. Matikan dan cabut perangkat elektronik yang tidak diperlukan untuk mencegah kerusakan saat listrik kembali menyala.\n\nJika Anda memerlukan bantuan lebih lanjut, silakan hubungi tim kantor pusat kami."
+      
+      ]
+    },
+    {
+      "tag": "pembebasan_display_AS",
+      "patterns": [
+        "Bagaimana cara membebaskan display AS?",
+        "Display AS terkunci",
+        "Tidak bisa mengakses display AS",
+        "Cara membuka display AS",
+        "Display AS error",
+        "Masalah dengan display AS"
+      ],
+      "responses": [
+        "Untuk membebaskan display AS pada aplikasi Satu, Anda dapat mengikuti langkah-langkah berikut:\n\n1. Pastikan Anda telah masuk ke akun Anda di aplikasi Satu.\n2. Periksa koneksi internet Anda, pastikan Anda terhubung ke jaringan yang stabil.\n3. Jika display masih terkunci, coba lakukan refresh pada halaman atau aplikasi tersebut.\n4. Jika masalah masih berlanjut, hubungi tim kantor pusat untuk mendapatkan bantuan lebih lanjut."
+      
+      ]
+    },
+    {
+      "tag": "pembebasan_display_printer",
+      "patterns": [
+        "Bagaimana cara membebaskan display printer?",
+        "Display printer terkunci",
+        "Tidak bisa mengakses display printer",
+        "Cara membuka display printer",
+        "Display printer error",
+        "Masalah dengan display printer"
+      ],
+      "responses": [
+        "Untuk membebaskan display printer pada aplikasi Satu, Anda dapat mengikuti langkah-langkah berikut:\n\n1. Pastikan printer terhubung ke jaringan yang benar dan dalam keadaan menyala.\n2. Periksa apakah ada pesan kesalahan yang ditampilkan pada layar printer.\n3. Pastikan Anda memiliki hak akses yang benar untuk membebaskan display printer.\n4. Jika display printer masih terkunci, coba restart printer dan periksa kembali.\n5. Jika masalah masih berlanjut, hubungi tim kantor pusat untuk mendapatkan bantuan lebih lanjut."
+      ]
+    },
+    {
+      "tag": "pembebasan_flag_deposito",
+      "patterns": [
+        "Bagaimana cara membebaskan flag deposito?",
+        "Flag deposito terkunci",
+        "Tidak bisa mengakses flag deposito",
+        "Cara membuka flag deposito",
+        "Flag deposito error",
+        "Masalah dengan flag deposito"
+      ],
+      "responses": [
+       "Untuk membebaskan flag deposito pada aplikasi Satu, Anda dapat mengikuti langkah-langkah berikut:\n\n1. Pastikan Anda telah masuk ke akun Anda di aplikasi Satu.\n2. Cari menu atau opsi yang berkaitan dengan deposito atau pengaturan akun.\n3. Temukan opsi untuk mengatur atau membebaskan flag deposito.\n4. Ikuti instruksi yang ada untuk membebaskan flag deposito.\n5. Jika masalah masih berlanjut, hubungi tim kantor pusat untuk mendapatkan bantuan lebih lanjut."
+      ]
+    },
+    {
+      "tag": "pembebasan_flag_deposito",
+      "patterns": [
+        "Bagaimana cara membebaskan flag deposito?",
+        "Flag deposito terkunci",
+        "Tidak bisa mengakses flag deposito",
+        "Cara membuka flag deposito",
+        "Flag deposito error",
+        "Masalah dengan flag deposito"
+      ],
+      "responses": [
+       "Untuk membebaskan flag deposito pada aplikasi Satu, Anda dapat mengikuti langkah-langkah berikut:\n\n1. Pastikan Anda telah masuk ke akun Anda di aplikasi Satu.\n2. Cari menu atau opsi yang berkaitan dengan deposito atau pengaturan akun.\n3. Temukan opsi untuk mengatur atau membebaskan flag deposito.\n4. Ikuti instruksi yang ada untuk membebaskan flag deposito.\n5. Jika masalah masih berlanjut, hubungi tim kantor pusat untuk mendapatkan bantuan lebih lanjut."
+      ]
+    },
+    {
+      "tag": "pembebasan_flag_pinjaman",
+      "patterns": [
+        "Bagaimana cara membebaskan flag pinjaman?",
+        "Flag pinjaman terkunci",
+        "Tidak bisa mengakses flag pinjaman",
+        "Cara membuka flag pinjaman",
+        "Flag pinjaman error",
+        "Masalah dengan flag pinjaman"
+      ],
+      "responses": [
+        "Untuk membebaskan flag pinjaman pada aplikasi Satu, Anda dapat mengikuti langkah-langkah berikut:\n\n1. Pastikan Anda telah masuk ke akun Anda di aplikasi Satu.\n2. Cari menu atau opsi yang berkaitan dengan pinjaman atau pengaturan akun.\n3. Temukan opsi untuk mengatur atau membebaskan flag pinjaman.\n4. Ikuti instruksi yang ada untuk membebaskan flag pinjaman.\n5. Jika masalah masih berlanjut, hubungi tim kantor pusat untuk mendapaykan bantuan lebih lanjut."
+      ]
+    },
+    {
+      "tag": "kesalahan_pendaftaran_pinjaman",
+      "patterns": [
+        "Ada kesalahan pendaftaran pinjaman",
+        "Pendaftaran pinjaman salah",
+        "Kesalahan saat mendaftar pinjaman",
+        "Tidak bisa mendaftar pinjaman",
+        "Bagaimana jika terjadi kesalahan saat mendaftar pinjaman?"
+      ],
+      "responses": [
+        "Untuk menyelesaikan masalah ini, harap langsung menghubungi tim kantor pusat."
+      ]
+    },
+    {
+      "tag": "kesalahan_pembayaran_pinjaman",
+      "patterns": [
+        "Ada kesalahan pembayaran pinjaman",
+        "Pembayaran pinjaman salah",
+        "Kesalahan saat membayar pinjaman",
+        "Tidak bisa membayar pinjaman",
+        "Bagaimana jika terjadi kesalahan saat membayar pinjaman?"
+      ],
+      "responses": [
+        "Untuk menyelesaikan masalah ini, harap langsung menghubungi tim kantor pusat."
+      ]
+    },
+    {
+      "tag": "otorisasi_tidak_bisa_tolak_terima",
+      "patterns": [
+        "Otorisasi tidak bisa, tolak/terima",
+        "Tidak bisa menyetujui atau menolak otorisasi",
+        "Tidak bisa menerima atau menolak otorisasi",
+        "Tidak bisa memberikan persetujuan atau penolakan otorisasi"
+      ],
+      "responses": [
+        "Jika Anda mengalami masalah dengan otorisasi, baik itu tidak bisa menyetujui atau menolak, harap langsung menghubungi tim kantor pusat kami untuk mendapatkan bantuan lebih lanjut."
+      ]
+    },
+    {
+      "tag": "kesalahan_restrukturisasi",
+      "patterns": [
+      "Kesalahan pada saat restrukturisasi",
+      "Restrukturisasi salah",
+      "Kesalahan saat merestrukturisasi",
+      "Tidak bisa merestrukturisasi",
+      "Masalah dengan restrukturisasi"
+      
+      ],
+      "responses": [
+        "jika Anda mengalami kesalahan pada saat restrukturisasi, harap menghubungi tim kantor pusat kami untuk mendapatkan bantuan lebih lanjut."
+        
+      ]
+    },
+    {
+      "tag": "pembebasan_jaminan",
+      "patterns": [
+        "Bagaimana cara membebaskan jaminan?",
+        "Jaminan terkunci",
+        "Tidak bisa mengakses jaminan",
+        "Cara membuka jaminan",
+        "Jaminan error",
+        "Masalah dengan jaminan"
+      ],
+      "responses": [
+       "Untuk membebaskan jaminan, harap mengikuti langkah-langkah berikut:\n\n1. Pastikan Anda telah masuk ke akun Anda di aplikasi Satu.\n2. Cari menu atau opsi yang berkaitan dengan jaminan atau pengaturan akun.\n3. Temukan opsi untuk membebaskan jaminan atau mengatasi masalah yang Anda alami.\n4. Ikuti instruksi yang ada untuk membebaskan jaminan atau mengatasi masalah tersebut.\n5. Jika masalah masih berlanjut, hubungi tim kantor pusat."
+        
+      ]
+    },
+    {
+      "tag": "kesalahan_input_tipe_kredit",
+      "patterns" : [
+        "Kesalahan input tipe kredit",
+        "Input tipe kredit salah",
+        "Kesalahan saat memasukkan tipe kredit",
+        "Tidak bisa memasukkan tipe kredit",
+        "Masalah dengan input tipe kredit"
+
+    ],
+    "responses":[
+      "Jika Anda mengalami kesalahan saat memasukkan tipe kredit, harap menghubungi tim kantor pusat kami untuk mendapatkan bantuan lebih lanjut. Kami akan membantu Anda dengan proses input tipe kredit yang benar."
+    ]
+  },
+  {
+    "tag": "cbs_tidak_bisa_akomodir_permintaan_bpr",
+    "patterns": [
+      "CBS tidak bisa mengakomodir permintaan BPR",
+      "Permintaan restrukturisasi reguler musiman tidak bisa diproses",
+      "Tidak bisa melakukan restrukturisasi reguler musiman melalui CBS",
+      "Permintaan BPR tidak bisa dipenuhi oleh CBS",
+      "CBS tidak dapat menangani restrukturisasi reguler musiman"
+    ],
+    "responses": [
+      "Jika CBS tidak dapat mengakomodir permintaan BPR untuk restrukturisasi reguler musiman, harap menghubungi tim kantor pusat kami untuk mendapatkan bantuan lebih lanjut. Kami akan membantu Anda menemukan solusi terbaik untuk kebutuhan restrukturisasi Anda."
+    ]
+  },
+  {
+    "tag": "cbs_mendebet_angsuran_tidak_sesuai_jadwal",
+    "patterns": [
+      "CBS mendebet angsuran tidak sesuai dengan jadwal",
+      "Pembayaran angsuran tidak sesuai dengan jadwal yang ditetapkan",
+      "CBS salah mendebet angsuran",
+      "Angsuran tidak dipotong sesuai jadwal oleh CBS",
+      "Pembayaran tidak sesuai jadwal"
+    ],
+    "responses": [
+      "Jika CBS mendebet angsuran tidak sesuai dengan jadwal yang ditetapkan, harap menghubungi tim kantor pusat kami untuk mendapatkan bantuan lebih lanjut. Kami akan menyelidiki masalah ini dan membantu Anda menyelesaikannya."
+    ]
+  }, 
+  {
+    "tag": "kesalahan_input_nominal_pinjaman",
+    "patterns": [
+      "Kesalahan input nominal pinjaman",
+      "Input nominal pinjaman salah",
+      "Kesalahan saat memasukkan nominal pinjaman",
+      "Tidak bisa memasukkan nominal pinjaman",
+      "Masalah dengan input nominal pinjaman"
+    ],
+    "responses": [
+      "Jika Anda mengalami kesalahan saat memasukkan nominal pinjaman, harap menghubungi tim kantor pusat kami untuk mendapatkan bantuan lebih lanjut. Kami akan membantu Anda dengan proses input yang benar untuk nominal pinjaman yang diinginkan."
+    ]
+  },
+  {
+    "tag": "kesalahan_input_nominal_agunan",
+    "patterns": [
+      "Kesalahan input nominal agunan",
+      "Input nominal agunan salah",
+      "Kesalahan saat memasukkan nominal agunan",
+      "Tidak bisa memasukkan nominal agunan",
+      "Masalah dengan input nominal agunan"
+    ],
+    "responses": [
+      "Jika Anda mengalami kesalahan saat memasukkan nominal agunan, harap menghubungi tim kantor pusat kami untuk mendapatkan bantuan lebih lanjut. Kami akan membantu Anda dengan proses input yang benar untuk nominal agunan yang diinginkan."
+    ]
+  }, 
+  {
+    "tag": "ip_conflict",
+    "patterns": [
+      "IP conflict",
+      "Konflik IP",
+      "Alamat IP bentrok",
+      "Masalah dengan IP",
+      "Konflik alamat IP"
+    ],
+    "responses": [
+      "Jika Anda mengalami konflik alamat IP, harap mengikuti langkah-langkah berikut untuk mencoba mengatasinya:\n\n1. Restart perangkat yang mengalami masalah.\n2. Pastikan tidak ada perangkat lain yang menggunakan alamat IP yang sama di jaringan Anda.\n3. Coba tetapkan alamat IP statis yang berbeda untuk perangkat yang terpengaruh.\n4. Periksa pengaturan DHCP pada router Anda untuk memastikan tidak ada konflik alamat IP.\n\nJika masalah masih berlanjut, harap menghubungi tim kantor pusat kami untuk mendapatkan bantuan lebih lanjut. Tim kami siap membantu Anda menyelesaikan masalah ini secepat mungkin."
+    ]
+  },
+  {
+    "tag": "router_modem_trouble",
+    "patterns": [
+      "Router trouble",
+      "Masalah dengan router",
+      "Modem trouble",
+      "Masalah dengan modem",
+      "Router tidak berfungsi",
+      "Modem tidak berfungsi"
+    ],
+    "responses": [
+      "Jika Anda mengalami masalah dengan router atau modem, harap mengikuti langkah-langkah berikut untuk mencoba mengatasinya:\n\n1. Restart router atau modem Anda dengan mematikan daya selama 10 detik, kemudian hidupkan kembali.\n2. Pastikan semua kabel terhubung dengan benar dan tidak ada yang longgar.\n3. Periksa lampu indikator pada router atau modem untuk memastikan perangkat berfungsi dengan baik.\n4. Coba reset perangkat ke pengaturan pabrik jika masalah masih berlanjut.\n\nJika langkah-langkah di atas tidak berhasil menyelesaikan masalah, harap menghubungi tim kantor pusat kami untuk mendapatkan bantuan lebih lanjut. Tim kami siap membantu Anda menyelesaikan masalah ini secepat mungkin."
+    ]
+  },
+  {
+    "tag": "setting_trouble_vpn_cadangan",
+    "patterns": [
+      "Setting VPN cadangan",
+      "Masalah dengan VPN cadangan",
+      "VPN cadangan tidak berfungsi",
+      "Tidak bisa mengatur VPN cadangan",
+      "Cara mengatur VPN cadangan"
+    ],
+    "responses": [
+      "Jika Anda mengalami masalah dengan pengaturan atau penggunaan VPN cadangan, harap mengikuti langkah-langkah berikut untuk mencoba mengatasinya:\n\n1. Periksa koneksi internet Anda untuk memastikan jaringan berfungsi dengan baik.\n2. Pastikan Anda memiliki informasi konfigurasi VPN yang benar (server address, username, password, dan lainnya).\n3. Coba restart perangkat Anda dan coba sambungkan kembali ke VPN cadangan.\n4. Jika menggunakan aplikasi VPN, pastikan aplikasi tersebut sudah diperbarui ke versi terbaru.\n5. Periksa pengaturan firewall atau antivirus yang mungkin memblokir koneksi VPN.\n\nJika masalah masih berlanjut, harap menghubungi tim kantor pusat kami untuk mendapatkan bantuan lebih lanjut. Tim kami siap membantu Anda menyelesaikan masalah ini secepat mungkin."
+    ]
+  },
+  {
+    "tag": "gangguan_jaringan_vpn_telkom",
+    "patterns": [
+      "Gangguan jaringan VPN Telkom",
+      "Masalah VPN Telkom di kantor cabang",
+      "VPN Telkom tidak berfungsi di kantor kas",
+      "Gangguan VPN Telkom di cabang",
+      "VPN Telkom bermasalah di kantor kas"
+    ],
+    "responses": [
+      "Jika Anda mengalami gangguan jaringan VPN Telkom di kantor cabang atau kantor kas, harap mengikuti langkah-langkah berikut untuk mencoba mengatasinya:\n\n1. Periksa koneksi internet di kantor cabang atau kantor kas untuk memastikan jaringan berfungsi dengan baik.\n2. Restart router atau modem yang digunakan untuk menghubungkan ke VPN Telkom.\n3. Periksa konfigurasi VPN di perangkat Anda untuk memastikan tidak ada yang salah.\n4. Coba restart perangkat yang digunakan untuk menghubungkan ke VPN.\n5. Pastikan tidak ada pembaruan perangkat lunak yang tertunda untuk perangkat yang digunakan.\n\nJika masalah masih berlanjut, harap menghubungi tim kantor pusat kami untuk mendapatkan bantuan lebih lanjut. Tim kami siap membantu Anda menyelesaikan masalah ini secepat mungkin."
+    ]
+  },
+  {
+    "tag": "gangguan_jaringan_vsat",
+    "patterns": [
+      "Gangguan jaringan V-SAT",
+      "Masalah V-SAT di kantor cabang",
+      "V-SAT tidak berfungsi di kantor kas",
+      "Gangguan V-SAT di cabang",
+      "V-SAT bermasalah di kantor kas"
+    ],
+    "responses": [
+      "Jika Anda mengalami gangguan jaringan V-SAT di kantor cabang atau kantor kas, harap mengikuti langkah-langkah berikut untuk mencoba mengatasinya:\n\n1. Periksa koneksi perangkat V-SAT untuk memastikan tidak ada kabel yang longgar atau terputus.\n2. Restart perangkat V-SAT dengan mematikan daya selama beberapa menit, kemudian hidupkan kembali.\n3. Pastikan antena V-SAT terarah dengan benar dan tidak ada halangan yang mengganggu sinyal.\n4. Periksa lampu indikator pada perangkat V-SAT untuk memastikan tidak ada kesalahan atau masalah yang terdeteksi.\n5. Jika menggunakan perangkat tambahan seperti router atau modem, pastikan perangkat tersebut berfungsi dengan baik.\n\nJika masalah masih berlanjut, harap menghubungi tim kantor pusat kami untuk mendapatkan bantuan lebih lanjut. Tim kami siap membantu Anda menyelesaikan masalah ini secepat mungkin."
+    ]
+  },
+  {
+    "tag": "tidak_dapat_mengakses_server_bpr_jatim",
+    "patterns": [
+      "Tidak dapat mengakses server BPR Jatim",
+      "Masalah akses server BPR Jatim",
+      "Server BPR Jatim tidak bisa diakses",
+      "Tidak bisa konek ke server BPR Jatim",
+      "Server BPR Jatim tidak responsif"
+    ],
+    "responses": [
+      "Jika Anda tidak dapat mengakses server BPR Jatim, harap mengikuti langkah-langkah berikut untuk mencoba mengatasinya:\n\n1. Periksa koneksi internet Anda untuk memastikan jaringan berfungsi dengan baik.\n2. Coba akses server dari perangkat lain untuk memastikan masalah bukan pada perangkat Anda.\n3. Restart perangkat yang Anda gunakan untuk mengakses server BPR Jatim.\n4. Pastikan alamat server yang Anda masukkan sudah benar dan tidak ada kesalahan pengetikan.\n5. Jika menggunakan VPN, pastikan VPN berfungsi dengan baik atau coba matikan VPN sementara.\n\nJika masalah masih berlanjut, harap menghubungi tim kantor pusat kami untuk mendapatkan bantuan lebih lanjut. Tim kami siap membantu Anda menyelesaikan masalah ini secepat mungkin."
+    ]
+  },
+  {
+    "tag": "sharing_file_antar_komputer",
+    "patterns": [
+      "Sharing file antar komputer",
+      "Bagaimana cara sharing file antar komputer?",
+      "File sharing di jaringan lokal",
+      "Tidak bisa sharing file antar komputer",
+      "Cara mengakses file dari komputer lain"
+    ],
+    "responses": [
+      "Untuk melakukan sharing file antar komputer di jaringan lokal, Anda dapat menggunakan beberapa metode seperti:\n\n1. Berbagi folder atau drive di jaringan lokal dan memberikan izin akses yang sesuai.\n2. Menggunakan layanan berbagi file seperti FTP (File Transfer Protocol) atau SFTP (Secure File Transfer Protocol).\n3. Menggunakan layanan cloud untuk menyimpan dan berbagi file di antara komputer.\n4. Menggunakan aplikasi pihak ketiga yang menyediakan fitur sharing file di jaringan lokal.\n\nPastikan untuk mengonfigurasi setiap metode dengan benar dan mengikuti langkah-langkah keamanan yang diperlukan agar file Anda aman saat dibagikan antar komputer."
+    ]
+  },
+  {
+    "tag": "gangguan_jaringan_vpn_kantor_pusat",
+    "patterns": [
+      "Gangguan jaringan VPN Kantor Pusat",
+      "Masalah dengan VPN Kantor Pusat",
+      "VPN Kantor Pusat tidak bisa diakses",
+      "Tidak bisa konek ke VPN Kantor Pusat",
+      "VPN Kantor Pusat tidak responsif"
+    ],
+    "responses": [
+      "Jika Anda mengalami gangguan jaringan VPN Kantor Pusat, harap mengikuti langkah-langkah berikut untuk mencoba mengatasinya:\n\n1. Periksa koneksi internet Anda untuk memastikan jaringan berfungsi dengan baik.\n2. Coba akses VPN dari perangkat lain untuk memastikan masalah bukan pada perangkat Anda.\n3. Restart perangkat yang Anda gunakan untuk mengakses VPN Kantor Pusat.\n4. Pastikan pengaturan VPN di perangkat Anda sudah benar dan tidak ada kesalahan konfigurasi.\n5. Jika menggunakan aplikasi VPN, pastikan aplikasi tersebut sudah diperbarui ke versi terbaru.\n\nJika masalah masih berlanjut, harap menghubungi tim kantor pusat untuk mendapatkan bantuan lebih lanjut. Tim kami siap membantu Anda menyelesaikan masalah ini secepat mungkin."
+    ]
+  },
+  {
+    "tag": "os_tidak_dapat_digunakan",
+    "patterns": [
+      "Operating sistem tidak dapat digunakan",
+      "Masalah dengan sistem operasi",
+      "OS tidak bisa diakses",
+      "Tidak bisa masuk ke sistem operasi",
+      "Sistem operasi tidak responsif"
+    ],
+    "responses": [
+      "Jika Anda mengalami masalah dengan sistem operasi yang tidak dapat digunakan, harap mengikuti langkah-langkah berikut untuk mencoba mengatasinya:\n\n1. Coba restart komputer Anda dan tunggu sampai sistem operasi kembali responsif.\n2. Jika Anda menggunakan sistem operasi berbasis Windows, coba boot ke dalam mode aman dengan menekan tombol F8 saat komputer booting.\n3. Jika menggunakan sistem operasi berbasis Linux, coba boot ke dalam mode pemulihan atau shell darurat.\n4. Jika permasalahan berlanjut, pertimbangkan untuk melakukan perbaikan sistem atau reinstall sistem operasi.\n\nJika masalah masih berlanjut, harap menghubungi tim teknis atau dukungan sistem Anda untuk mendapatkan bantuan lebih lanjut."
+    ]
+  },
+  {
+    "tag": "aplikasi_ibm_error",
+    "patterns": [
+      "Aplikasi IBM error",
+      "Masalah dengan aplikasi IBM",
+      "IBM tidak berfungsi",
+      "Tidak bisa menggunakan aplikasi IBM",
+      "Aplikasi IBM mengalami kesalahan"
+    ],
+    "responses": [
+      "Jika Anda mengalami masalah dengan aplikasi IBM yang mengalami kesalahan, harap mengikuti langkah-langkah berikut untuk mencoba mengatasinya:\n\n1. Coba restart aplikasi IBM dan lihat apakah masalahnya teratasi.\n2. Periksa koneksi internet Anda untuk memastikan tidak ada masalah dengan koneksi.\n3. Pastikan aplikasi IBM Anda sudah diperbarui ke versi terbaru.\n4. Jika memungkinkan, coba reinstall aplikasi IBM untuk memperbaiki masalah yang mungkin terjadi pada instalasi.\n\nJika masalah masih berlanjut, harap menghubungi tim dukungan teknis IBM untuk mendapatkan bantuan lebih lanjut."
+    ]
+  },
+  {
+    "tag": "instalasi_aplikasi_ibm",
+    "patterns": [
+      "Instalasi aplikasi IBM",
+      "Cara menginstal aplikasi IBM",
+      "Bagaimana cara menginstal aplikasi IBM?",
+      "Langkah-langkah instalasi aplikasi IBM"
+    ],
+    "responses": [
+      "Berikut adalah langkah-langkah umum untuk menginstal aplikasi IBM:\n\n1. Unduh file instalasi aplikasi IBM dari situs resmi IBM atau sumber yang terpercaya.\n2. Buka file instalasi yang sudah diunduh.\n3. Ikuti petunjuk instalasi yang muncul di layar, termasuk pemilihan direktori instalasi, konfigurasi, dan opsi lainnya.\n4. Tunggu proses instalasi selesai.\n5. Setelah instalasi selesai, Anda mungkin perlu melakukan konfigurasi tambahan sesuai dengan kebutuhan aplikasi.\n6. Pastikan untuk mengaktifkan lisensi aplikasi jika diperlukan.\n\nPastikan untuk membaca panduan instalasi yang disediakan oleh IBM untuk aplikasi tertentu yang ingin Anda instal, karena langkah-langkahnya dapat bervariasi tergantung pada produk yang Anda gunakan."
+    ]
+  },
+  {
+    "tag": "instalasi_os_windows",
+    "patterns": [
+      "Instalasi operating sistem Windows",
+      "Cara menginstal Windows",
+      "Langkah-langkah instalasi Windows",
+      "Bagaimana cara menginstal Windows?"
+    ],
+    "responses": [
+      "Berikut adalah langkah-langkah umum untuk menginstal operating sistem Windows:\n\n1. Persiapkan media instalasi Windows seperti DVD instalasi atau USB bootable dengan file ISO Windows.\n2. Boot komputer Anda dari media instalasi yang sudah Anda siapkan.\n3. Pilih bahasa, zona waktu, dan preferensi lainnya saat diminta.\n4. Klik 'Install Now' dan ikuti petunjuk yang muncul di layar.\n5. Pilih jenis instalasi yang Anda inginkan (biasanya 'Custom' untuk instalasi bersih atau 'Upgrade' untuk memperbarui instalasi Windows yang sudah ada).\n6. Pilih partisi tempat Anda ingin menginstal Windows (atau buat partisi baru jika diperlukan).\n7. Tunggu proses instalasi selesai. Komputer Anda mungkin akan reboot beberapa kali selama proses instalasi.\n8. Setelah instalasi selesai, ikuti instruksi untuk menyelesaikan pengaturan akhir dan mengatur akun pengguna.\n\nPastikan untuk menyimpan backup data penting sebelum melakukan instalasi untuk menghindari kehilangan data."
+    ]
+  },
+  {
+    "tag": "file_terinfeksi_virus",
+    "patterns": [
+      "File terinfeksi virus",
+      "Cara mengatasi file yang terinfeksi virus",
+      "Bagaimana cara membersihkan file dari virus?",
+      "Terdeteksi virus pada file",
+      "File dideteksi sebagai ancaman oleh antivirus"
+    ],
+    "responses": [
+      "Jika Anda mendeteksi bahwa file Anda terinfeksi virus, berikut beberapa langkah yang dapat Anda lakukan untuk mengatasi masalah tersebut:\n\n1. Hapus file yang terinfeksi dari komputer Anda segera untuk mencegah penyebaran virus ke file lain atau sistem.\n2. Lakukan pemeriksaan lengkap menggunakan antivirus yang terpercaya untuk mengidentifikasi dan membersihkan virus dari sistem Anda.\n3. Jika file terinfeksi merupakan bagian dari instalasi program atau sistem operasi, pertimbangkan untuk mendownload kembali file instalasi dari sumber yang tepercaya atau mengembalikan file dari backup yang aman.\n4. Jangan mencoba membuka atau menjalankan file terinfeksi sebelum Anda yakin bahwa virus telah dihapus sepenuhnya, karena dapat menyebabkan kerusakan lebih lanjut pada sistem Anda.\n\nPastikan untuk selalu memperbarui perangkat lunak antivirus Anda dan melakukan pemindaian rutin untuk mencegah serangan virus yang lebih lanjut."
+    ]
+  },
+  {
+    "tag": "pemasangan_perangkat_komputer",
+    "patterns": [
+      "Pemasangan perangkat komputer",
+      "Cara memasang perangkat keras komputer",
+      "Langkah-langkah memasang perangkat komputer",
+      "Bagaimana cara menginstal perangkat keras komputer?"
+    ],
+    "responses": [
+      "Berikut adalah langkah-langkah umum untuk memasang perangkat keras komputer:\n\n1. Persiapkan perangkat keras yang ingin Anda pasang (misalnya, CPU, RAM, kartu grafis, hard drive, atau perangkat lain).\n2. Matikan komputer dan pastikan untuk mencabut kabel daya dari stop kontak untuk menghindari kejutan listrik.\n3. Buka casing komputer dengan membuka sekrup yang mengikat casing.\n4. Pasang perangkat keras ke slot yang sesuai di motherboard komputer.\n5. Pastikan perangkat keras terpasang dengan benar dan aman di slotnya.\n6. Tutup casing komputer dan kencangkan kembali sekrupnya.\n7. Hubungkan kembali kabel daya dan nyalakan komputer.\n8. Jika perangkat keras memerlukan driver, instal driver yang diperlukan dari situs resmi produsen.\n\nPastikan untuk membaca petunjuk pengguna yang disertakan dengan perangkat keras Anda untuk panduan instalasi yang lebih detail."
+    ]
+  },
+  {
+    "tag": "kendala_akses_sistem_aplikasi_lambat",
+    "patterns": [
+      "Kendala akses sistem aplikasi sangat lambat",
+      "Sistem aplikasi berjalan lambat",
+      "Akses ke aplikasi sangat lambat",
+      "Koneksi ke sistem aplikasi terlalu lambat",
+      "Kinerja aplikasi sangat lambat"
+    ],
+    "responses": [
+      "Jika Anda mengalami kendala akses yang sangat lambat pada sistem aplikasi, ada beberapa langkah yang dapat Anda coba untuk memperbaikinya:\n\n1. Pastikan koneksi internet Anda stabil dan memiliki kecepatan yang memadai untuk akses ke aplikasi.\n2. Periksa infrastruktur jaringan Anda untuk memastikan tidak ada masalah yang memengaruhi kinerja aplikasi, seperti kabel yang rusak atau router yang overloading.\n3. Tinjau kapasitas server tempat aplikasi dijalankan untuk memastikan server memiliki sumber daya yang cukup untuk menangani beban kerja yang diberikan.\n4. Periksa apakah ada masalah pada aplikasi itu sendiri yang memengaruhi kinerja, seperti bug atau pembaruan perangkat lunak yang diperlukan.\n5. Lakukan pemantauan kinerja sistem secara teratur untuk mengidentifikasi potensi masalah dengan cepat dan mengambil tindakan pencegahan yang diperlukan.\n\nJika masalah masih berlanjut, pertimbangkan untuk menghubungi tim dukungan teknis atau administrator sistem Anda untuk mendapatkan bantuan lebih lanjut."
+    ]
+  },
+  {
+    "tag": "akses_data_terputus_lambat",
+    "patterns": [
+      "Akses data pada menu tertentu lambat",
+      "Akses terputus saat mengakses data",
+      "Data tidak dapat diakses pada menu tertentu",
+      "Akses data menu tertentu terganggu",
+      "Data loading lama pada menu tertentu"
+    ],
+    "responses": [
+      "Jika Anda mengalami masalah dengan akses data yang lambat atau cenderung terputus pada menu tertentu, ada beberapa langkah yang dapat Anda lakukan untuk mencoba memperbaikinya:\n\n1. Periksa koneksi jaringan Anda untuk memastikan tidak ada masalah dengan kecepatan atau stabilitas koneksi.\n2. Tinjau kembali server atau infrastruktur yang menyediakan data untuk memastikan tidak ada masalah dengan kinerja atau kapasitasnya.\n3. Pastikan bahwa perangkat lunak atau aplikasi yang digunakan untuk mengakses data telah diperbarui ke versi terbaru.\n4. Periksa konfigurasi aplikasi atau layanan yang digunakan untuk mengakses data dan pastikan telah diatur dengan benar.\n5. Lakukan pemantauan kinerja sistem untuk mengidentifikasi titik lemah dalam proses akses data dan tindak lanjuti sesuai.\n\nJika masalah masih berlanjut, harap menghubungi tim kantor pusat kami untuk mendapatkan bantuan lebih lanjut. Tim kami siap membantu Anda menyelesaikan masalah ini secepat mungkin."
+    ]
+  },
+  {
+    "tag": "kesalahan_input_perubahan_data_db",
+    "patterns": [
+      "Kesalahan input user, perlu perubahan data di DB",
+      "Kesalahan data di database karena input user",
+      "Data di database tidak sesuai karena kesalahan input",
+      "Perlu perubahan pada data di database akibat kesalahan input user"
+    ],
+    "responses": [
+      "Jika terjadi kesalahan input dari pengguna yang menyebabkan data tidak sesuai di database, langkah-langkah berikut dapat membantu memperbaikinya:\n\n1. Identifikasi kesalahan input yang menyebabkan ketidaksesuaian data di database.\n2. Verifikasi data yang benar yang seharusnya ada di database untuk memastikan perubahan yang diperlukan.\n3. Lakukan perubahan pada data di database sesuai dengan informasi yang benar.\n4. Pastikan untuk menyimpan log perubahan yang dilakukan untuk pelacakan dan audit di masa mendatang.\n5. Berikan pemberitahuan kepada pengguna yang bersangkutan tentang perubahan yang dilakukan dan verifikasi informasi yang benar.\n\nPastikan untuk melakukan langkah-langkah ini dengan hati-hati dan hati-hati untuk menghindari kehilangan data atau membuat kesalahan yang lebih besar dalam proses perubahan data di database."
+    ]
+  },
+  {
+    "tag": "layout_kurang_mendukung_user",
+    "patterns": [
+      "Layout kurang mendukung user",
+      "Tata letak aplikasi kurang sesuai untuk pengguna",
+      "Tidak nyaman menggunakan aplikasi karena kurangnya dukungan dari layout",
+      "Perlu perbaikan layout aplikasi untuk pengguna"
+    ],
+    "responses": [
+      "Jika layout aplikasi kurang mendukung untuk pengguna, berikut adalah beberapa langkah yang dapat diambil untuk meningkatkan pengalaman pengguna:\n\n1. Lakukan evaluasi terhadap layout aplikasi untuk mengidentifikasi area yang membutuhkan perbaikan atau penyempurnaan.\n2. Dapatkan umpan balik dari pengguna langsung atau tim pengembangan untuk memahami masalah spesifik yang dialami pengguna.\n3. Prioritaskan area yang perlu diperbaiki berdasarkan umpan balik pengguna dan pentingnya fungsinya dalam operasional aplikasi.\n4. Buat desain layout baru yang lebih intuitif dan user-friendly, dengan mempertimbangkan prinsip-prinsip desain UI/UX yang baik.\n5. Uji coba layout baru dengan pengguna untuk memastikan bahwa perubahan yang dilakukan memang membantu meningkatkan pengalaman pengguna.\n6. Lakukan iterasi berkelanjutan terhadap layout aplikasi berdasarkan umpan balik pengguna dan evaluasi kinerja.\n\nDengan mengikuti langkah-langkah ini, diharapkan layout aplikasi dapat ditingkatkan untuk mendukung operasional pengguna dengan lebih baik."
+    ]
+  }
+  ,
+  {
+    "tag": "fasilitas_menu_kurang_mendukung_kebutuhan_user",
+    "patterns": [
+      "Fasilitas/menu kurang dapat memenuhi kebutuhan user",
+      "Menu aplikasi kurang sesuai dengan kebutuhan pengguna",
+      "Tidak nyaman menggunakan menu aplikasi karena kurangnya fasilitas",
+      "Perlu peningkatan fasilitas/menu untuk pengguna"
+    ],
+    "responses": [
+      "Jika fasilitas atau menu aplikasi kurang dapat memenuhi kebutuhan pengguna, berikut adalah beberapa langkah yang dapat diambil untuk meningkatkan pengalaman pengguna:\n\n1. Lakukan analisis kebutuhan pengguna untuk memahami apa yang mereka butuhkan dari aplikasi.\n2. Identifikasi area-area di dalam menu aplikasi yang kurang dapat memenuhi kebutuhan pengguna atau kurangnya fasilitas yang diperlukan.\n3. Dapatkan umpan balik langsung dari pengguna atau tim pengembangan untuk memahami masalah spesifik yang dialami pengguna.\n4. Prioritaskan peningkatan fasilitas atau menu berdasarkan pada umpan balik pengguna dan kebutuhan yang paling mendesak.\n5. Desain dan implementasikan perubahan yang diperlukan untuk meningkatkan fasilitas atau menu aplikasi sesuai dengan kebutuhan pengguna.\n6. Uji coba perubahan yang telah dilakukan dengan pengguna untuk memastikan bahwa perubahan tersebut efektif dan memenuhi harapan pengguna.\n7. Lakukan iterasi berkelanjutan berdasarkan umpan balik pengguna untuk memperbaiki dan menyempurnakan fasilitas atau menu aplikasi.\n\nDengan mengikuti langkah-langkah ini, diharapkan fasilitas atau menu aplikasi dapat ditingkatkan untuk lebih memenuhi kebutuhan pengguna dengan lebih baik."
+    ]
+  },
+  {
+    "tag": "pembangunan_aplikasi_mendadak",
+    "patterns": [
+      "Pembangunan aplikasi baru mendadak",
+      "Perlu membuat aplikasi baru dengan cepat",
+      "Harus melakukan perubahan aplikasi secara tiba-tiba",
+      "Proyek pengembangan aplikasi yang mendesak"
+    ],
+    "responses": [
+      "Jika Anda membutuhkan pembangunan atau perubahan aplikasi yang mendadak, ada beberapa langkah yang dapat diambil untuk mengatasi situasi tersebut dengan efisien:\n\n1. Lakukan pertemuan darurat dengan tim pengembangan untuk mendiskusikan kebutuhan dan tenggat waktu proyek yang mendadak.\n2. Tetapkan prioritas yang jelas dan fokus pada fitur atau fungsi yang paling penting untuk mencapai tujuan proyek dalam waktu yang singkat.\n3. Gunakan metodologi pengembangan yang cepat dan fleksibel, seperti metode agile, untuk memungkinkan iterasi cepat dan adaptasi terhadap perubahan yang mungkin terjadi selama proses pengembangan.\n4. Bagi tugas dengan jelas kepada anggota tim dan pastikan setiap orang memahami tanggung jawab mereka dan tenggat waktu yang ditetapkan.\n5. Tetap komunikatif dan terbuka dengan tim pengembangan, dan jangan ragu untuk meminta bantuan atau memberikan umpan balik secara teratur selama proses pengembangan.\n6. Lakukan pengujian secara menyeluruh untuk memastikan kualitas dan keamanan aplikasi sebelum diluncurkan ke pengguna akhir.\n\nDengan mengikuti langkah-langkah ini, Anda dapat membantu memastikan bahwa proyek pembangunan atau perubahan aplikasi baru dapat diselesaikan dengan sukses dalam waktu yang singkat."
+    ]
+  },
+  {
+    "tag": "uang_terselip",
+    "patterns": [
+      "Uang terselip",
+      "Terselip uang di aplikasi",
+      "Masalah dengan uang di aplikasi",
+      "Tidak bisa mengakses uang di aplikasi"
+    ],
+    "responses": [
+      "Jika Anda mengalami masalah dengan uang yang terselip di aplikasi, berikut adalah langkah-langkah yang dapat Anda ambil:\n\n1. Periksa riwayat transaksi Anda untuk mencari tahu apakah ada transaksi yang belum selesai atau tertunda.\n2. Pastikan bahwa saldo atau dana di aplikasi Anda mencerminkan transaksi terakhir yang telah Anda lakukan.\n3. Jika uang masih belum tersedia, coba lakukan refresh atau muat ulang aplikasi untuk memperbarui informasi saldo.\n4. Jika masalah masih berlanjut, hubungi layanan pelanggan atau dukungan teknis dari penyedia aplikasi untuk mendapatkan bantuan lebih lanjut.\n\nTim dukungan akan membantu Anda menyelesaikan masalah dan memastikan bahwa uang yang terselip dapat diakses atau ditangani dengan tepat."
+    ]
+  } 
+  ]
+}
